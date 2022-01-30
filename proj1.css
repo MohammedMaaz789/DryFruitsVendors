@@ -60,4 +60,13 @@ nav ul a:hover{
     font-size: 20px;
     display: block;
     margin:auto;
+      transition: 0.2s all;
+}
+.item button:hover{
+    transform:scale(1.08);
+}
+@media screen and (max-width:768px){
+    .items{
+        grid-template-columns:repeat(1,1fr);
+    }
 }
